@@ -23,7 +23,7 @@ The objective of this project is to classify the images as AI or Real art using 
 |VGG16 fully trained on this data| 91%|
 |**VGG16 with transfer learning**|**90%**|
 
-Although VGG16 tha was fully trained on the data gave better validation accuracy, I decided to go with the VGG16 with transfer learning wherein I froze the first 15 layers and made the remaining ones trainable, followed by the fully connected layers.
+Although VGG16 that was fully trained on the data gave better validation accuracy, I decided to go with the VGG16 with transfer learning wherein I froze the first 15 layers and made the remaining ones trainable, followed by the fully connected layers. This was because the VGG16 architecture fully trained on this data was significantly overfitting and also took more training time.
 
 
 | Model | Validation Accuracy | Test Accuracy|
